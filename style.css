@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    /* background-color: rgb(110, 110, 115); */
+}
+.circle{
+    height: 60%;
+    background-color: rgb(178, 176, 176);
+    width: 9%;
+    border-radius: 150px;
+    cursor: pointer;   
+}
+.num
+{
+    text-align: center;
+    margin-top: 28px;
+    font-size: 3.2rem;
+}
+.line
+{
+    /* color: black; */
+    width: 17%;
+    border: 2px solid black;
+    /* height: px; */
+    /* background-color: black; */
+
+}
+.info
+{
+    /* backgrond-color: red; */
+    margin-top: 28px;
+    width: max-content;
+    text-align: center;
+}
+.logistics{
+    position: relative;
+    left: 28px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+li:hover .dropdown {
+    display: block;
+}
+
+
+.sub {
+    margin: 20px;
+}
+
+.yesNoSliderclass{
+    width: 3%;
+    height: 10%;
+}
+
+/* Information line1 */
+.line1{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.additional{
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+
+
+/* Booking info  */
+.title1{
+    margin: 20px 20px;
+    padding: 50px 0;
+    /* background-color: aqua; */
+}
+.title4{
+    margin: 20px 20px;
+    padding: 50px 0;
+    /* background-color: green; */
+}
+
+
+
+
+
+
+.box{
+    height: 40px;
+    width: 250px;
+}
+
+
+.l2{
+    position: relative;
+    top: 11px;
+
+}
+.l21{
+    position: relative;
+    top: 15px;
+    
+}
+.l22{
+    position: relative;
+    top: 18px;
+    /* left: 00px; */
+}
+
+
+.line2{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.line3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12px;
+    
+}
+.plus{
+    margin: 0 140px;
+}
+
+
+.leftspace{
+    position: relative;
+    top: 11px;
+}
+
+.sp{
+    margin:20px 0;
+}
+
+
+
+
+

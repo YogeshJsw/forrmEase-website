@@ -1,0 +1,16 @@
+.fullLine{
+    margin-left: 20px;
+}
+.linestart{
+    display: flex;
+    margin-left: 20px;
+}
+
+.newl{
+    position: relative;
+    left: 300px;
+}
+.mix{
+    position: relative;
+    left: 170px;
+}

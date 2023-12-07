@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development Assignment</title>
+    <link rel="stylesheet" href="logisticsStyle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav style="margin: 90px;">
+            <a href="/initial.html" class="circle" >
+                <div class="num">1</div>
+                <div class="info">Initial Information</div>
+            </a>
+
+            <div class="line" id="line1">
+            </div>
+            <a href="/index.html" class="circle">
+                <div class="num">2</div>
+                <div class="info">Party Information</div>
+            </a>
+            <div class="line" id="line2" style="
+            color: blue;
+            border: 2px solid blue;
+    background-color: white;">
+            </div>
+            <a href="logistics.html" class="circle" style="
+            color: blue;
+            border: 2px solid blue;
+    background-color: white;">
+                <div class="num">3</div>
+                <div class="info logistics">Logistics</div>
+            </a>
+            <div class="line" id="line3" style="
+            color: blue;
+            border: 2px solid blue;
+    background-color: white;">
+            </div>
+            <a href="services.html" class="circle">
+                <div class="num">4</div>
+                <div class="info">Additional Services</div>
+            </a>
+        </nav>
+    </header>
+
+
+    <section style="margin: 20px 20px;">
+        <div class="title1">
+            <span class="up"  style="font-size: 1.2rem; cursor: pointer;"><b>^</b></span> Basic Logistics
+            <div class="title2" style="margin: 20px 20px;">
+                <div class="sub">Upload cover page (optional)</div>
+                <div>Choose file here</div>
+
+                <form action="backend.php">
+
+
+                    <div class="line1">
+                        <div class="name">Style of cause
+                            <div>
+                                <input class="box" type="text" placeholder="Type here">
+                            </div>
+                        </div>
+                        <div class="name">Court File #
+                            <div class="hint">
+                                <input class="box" type="text" placeholder="Type Here">
+                            </div>
+                        </div>
+                        <div class="name">Booking Dates
+                            <div>
+                                <input class="box" type="date" placeholder="date?">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line1">
+                        <div class="name l2"> Start Time
+                            <div>
+                                <input class="box" type="time" placeholder="time?">
+                            </div>
+                        </div>
+                        <div class="name l2">
+                            <div>
+                                <input class="box" type="time" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="name l2">Time Zone
+                            <div>
+                                <input class="box" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="line3">
+                        <div class="name l22"> Arbitrator(s)
+                            <div>
+                                <input class="box" type="text" placeholder="Chair's Name">
+                            </div>
+                        </div>
+                        <div class="plus l22"> ... </div>
+                        <div class="name l22">
+                            <div>
+                                <input class="box" type="email" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line3p">
+                        <div class="p l22">+</div>
+                        <div class="name l22">
+                            <div>
+                                <input class="box" type="text" placeholder="Add additional arbitrator">
+                            </div>
+                        </div>
+                        <div class="plus l22"> ... </div>
+                        <div class="name l22">
+                            <div>
+                                <input class="box space" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub">Use Information on account? <input type="range" min="0" max="1" step="1" value="0"
+                              class="yesNoSliderclass">
+                        <span  class="sliderValueclass">No</span>
+                    </div>
+
+
+                    <div class="line3">
+                        <div class="name l22">
+                            <div>
+                                <input class="box" type="text" placeholder="Tribunal secretary's name">
+                            </div>
+                        </div>
+                        <div class="plus l22"> ... </div>
+                        <div class="name l22">
+                            <div>
+                                <input class="box" type="text" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line3">
+                        <div class="name l22"> Witness(es)
+                            <div>
+                                <input class="box" type="text" placeholder="Witness' Name">
+                            </div>
+                        </div>
+                        <div class="plus l22"> ... </div>
+                        <div class="name l22">
+                            <div>
+                                <input class="box" type="email" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line3p">
+                        <div class="p l22">+</div>
+                        <div class="name l22">
+                            <div>
+                                <input class="box" type="text" placeholder="Add additional witness">
+                            </div>
+                        </div>
+                        <div class="plus l22"> ... </div>
+                        <div class="name l22">
+                            <div>
+                                <input class="box space" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+
+        <div class="title1">
+            <span class="up"  style="font-size: 1.2rem; cursor: pointer;"><b>^</b></span> Virtual Logistics
+            <div class="title2" style="margin: 20px 20px;">
+                <div class="sub">Do you require a VCM(virtual case manager)? <input type="range" min="0" max="1"
+                        step="1" value="0"   class="yesNoSliderclass">
+                    <span  class="sliderValueclass">No</span>
+                </div>
+                <div class="fullLine">
+                    <div class="name"> Is there a particular VCM you want to work with?
+                        <div>
+                            <input class="box" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="linestart">
+                    <div class="name l2"> Select a virtual platform
+                        <div>
+                            <input class="box" type="text" placeholder="Zoom">
+                        </div>
+                    </div>
+                    <div class="name l2 newl"> Number of virtual breakout rooms
+                        <div>
+                            <input class="box" type="number">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub"> Do you need us to provide Document Managing Services? <input type="range" min="0"
+                        max="1" step="1" value="0"   class="yesNoSliderclass">
+                    <span  class="sliderValueclass">No</span>
+                </div>
+
+                <div class="linestart ">
+                    <div class="name l2"> Do you have any special accomodations for you booking
+                        <div> that out I.T. team can look
+                            into prior to the start date?
+                        </div>
+                        <div>
+                            <input class="box" type="text" placeholder="Input">
+                        </div>
+                    </div>
+                    <div class="sub mix"> Would you like your matter to be recorded? <input type="range" min="0" max="1"
+                            step="1" value="0"   class="yesNoSliderclass">
+                        <span  class="sliderValueclass">No</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

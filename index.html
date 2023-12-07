@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav style="margin: 90px;">
+
+            <a href="/initial.html" class="circle">
+                <div class="num">1</div>
+                <div class="info">Initial Information</div>
+            </a>
+
+            <div class="line" id="line1" style="
+            color: blue;
+            border: 2px solid blue;
+    background-color: white;">
+            </div>
+            <a href="/index.html" class="circle" style="
+            color: blue;
+            border: 2px solid blue;
+    background-color: white;">
+                <div class="num">2</div>
+                <div class="info">Party Information</div>
+            </a>
+            <div class="line" id="line2" style="
+            color: blue;
+            border: 2px solid blue;
+    background-color: white;">
+            </div>
+            <a href="logistics.html" class="circle">
+                <div class="num">3</div>
+                <div class="info logistics">Logistics</div>
+            </a>
+            <div class="line" id="line3">
+            </div>
+            <a href="services.html" class="circle">
+                <div class="num">4</div>
+                <div class="info">Additional Services</div>
+            </a>
+        </nav>
+    </header>
+
+
+
+
+
+
+    <main>
+        <section style="margin: 20px 20px;">
+            <div class="title1">
+                <span class="up" style="font-size: 1.2rem;
+                cursor: pointer;"><b>^</b></span> Booking Party Information <span>(Enter as
+                    much as possible)</span>
+                <div class="title2">
+
+                    <div class="sub">Use Information on account? <input type="range" min="0" max="1" step="1" value="0"
+                            class="yesNoSliderclass">
+                        <span class="sliderValueclass">No</span>
+                    </div>
+                    <form action="backend.php">
+                        <div class="line1">
+                            <div class="name"> First Name
+                                <div>
+                                    <input class="box" type="text" placeholder="Input">
+                                </div>
+                            </div>
+                            <div class="name"> Booking Contact Name
+                                <div class="hint">
+                                    <input class="box" type="text" placeholder="Type Here">
+                                </div>
+                            </div>
+                            <div class="name"> Phone Number (No Spaces)
+                                <div>
+                                    <input class="box" type="text" placeholder="Type Here">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line1">
+                            <div class="name l2"> Billing Address
+                                <div>
+                                    <input class="box" type="text" placeholder="Type Here">
+                                </div>
+                            </div>
+                            <div class="name l2"> ZIP/Postal Code
+                                <div>
+                                    <input class="box" type="text" placeholder="Input">
+                                </div>
+                            </div>
+                            <div class="name l2"> Country/City
+                                <div>
+                                    <input class="box" type="text" placeholder="Canada">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="line2 leftspace">
+                            <div class="name l21"> Role
+                                <div>
+                                    <input class="box" type="text" placeholder="Input">
+                                </div>
+                            </div>
+                            <div class="name l21"> Name of Represented Clients
+                                <div>
+                                    <input class="box" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line3">
+                            <div class="name l22"> Lead counsel(s) Information
+                                <div>
+                                    <input class="box" type="text" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="plus l22"> ... </div>
+                            <div class="name l22">
+                                <div>
+                                    <input class="box" type="email" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line3" style="margin-top: 10px;
+                        margin-left: -9px;">
+                            <div class="p l22">+</div>
+                            <div class="name l22">
+                                <div>
+                                    <input class="box" type="text" placeholder="Add additional counsel">
+                                </div>
+                            </div>
+                            <div class="plus l22"> ... </div>
+                            <div class="name l22">
+                                <div>
+                                    <input class="box space" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="title4">
+                <span class="up" style="font-size: 1.2rem; cursor: pointer;"><b>^</b></span> Opposition Party
+                Information
+                <div class="title3 title2" style="margin-bottom: 60px; margin-top: 10px;">
+                    <form action="backend.php">
+                        <div class="line1">
+                            <div class="name"> First Name
+                                <div>
+                                    <input class="box" type="text" placeholder="Input">
+                                </div>
+                            </div>
+                            <div class="name"> Booking Contact Name
+                                <div class="hint">
+                                    <input class="box" type="text" placeholder="Type Here">
+                                </div>
+                            </div>
+                            <div class="name"> Phone Number (No Spaces)
+                                <div>
+                                    <input class="box" type="text" placeholder="Type Here">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line1">
+                            <div class="name l2"> Billing Address
+                                <div>
+                                    <input class="box" type="text" placeholder="Type Here">
+                                </div>
+                            </div>
+                            <div class="name l2"> ZIP/Postal Code
+                                <div>
+                                    <input class="box" type="text" placeholder="Input">
+                                </div>
+                            </div>
+                            <div class="name l2"> Country/City
+                                <div>
+                                    <input class="box" type="text" placeholder="Canada">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="line2 leftspace">
+                            <div class="name l21"> Role
+                                <div>
+                                    <input class="box" type="text" placeholder="Input">
+                                </div>
+                            </div>
+                            <div class="name l21"> Name of Represented Clients
+                                <div>
+                                    <input class="box" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line3">
+                            <div class="name l22"> Lead counsel(s) Information
+                                <div>
+                                    <input class="box" type="text" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="plus l22"> ... </div>
+                            <div class="name l22">
+                                <div>
+                                    <input class="box" type="email" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line3" style="margin-top: 10px;
+                        margin-left: -9px;">
+                            <div class="p l22">+</div>
+                            <div class="name l22">
+                                <div>
+                                    <input class="box" type="text" placeholder="Add additional counsel">
+                                </div>
+                            </div>
+                            <div class="plus l22"> ... </div>
+                            <div class="name l22">
+                                <div>
+                                    <input class="box space" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <button class="additional" onclick="additionalBtn()">+ Additional Parties</button>
+
+        </section>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

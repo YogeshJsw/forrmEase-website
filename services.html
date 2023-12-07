@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+    <header>
+        <nav style="margin: 90px;">
+            <a href="initial.html" class="circle" >
+                <div class="num">1</div>
+                <div class="info">Initial Information</div>
+            </a>
+
+            <div class="line" id="line1">
+            </div>
+            <a href="/index.html" class="circle" >
+                <div class="num">2</div>
+                <div class="info">Party Information</div>
+            </a>
+            <div class="line" id="line2">
+            </div>
+            <a href="logistics.html" class="circle" >
+                <div class="num">3</div>
+                <div class="info logistics">Logistics</div>
+            </a>
+            <div class="line" id="line3" style="
+        color: blue;
+        border: 2px solid blue;
+background-color: white;">
+            </div>
+            <a href="services.html" class="circle" style="
+        color: blue;
+        border: 2px solid blue;
+background-color: white;">
+                <div class="num">4</div>
+                <div class="info">Additional Services</div>
+            </a>
+        </nav>
+    </header>
+
+    <section style="margin: 20px 20px;">
+
+        <div class="title1">
+            <span class="up"  style="font-size: 1.2rem; cursor: pointer;"><b>^</b></span> Court Reporting
+            <div class="title2" style="margin: 20px 20px;">
+                <div class="sub">Will this matter plan to have a Court reporter? <input type="range" min="0" max="1"
+                        step="1" value="0"   class="yesNoSliderclass">
+                    <span   class="sliderValueclass">No</span>
+                </div>
+                <div class="sub">Would you like an Arbitration Place Court Reporter? <input type="range" min="0" max="1"
+                        step="1" value="0"   class="yesNoSliderclass">
+                    <span   class="sliderValueclass">No</span>
+                </div>
+
+                <div class="fullLine">
+                    <div class="name"> Is there any specific Arbitration Place Court Reporter you prefer?
+                        <div>
+                            <input class="box" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="sub">Will a transcript be required? <input type="range" min="0" max="1" step="1" value="0"
+                          class="yesNoSliderclass">
+                    <span   class="sliderValueclass">No</span>
+                </div>
+                <div class="fullLine">
+                    <div class="name"> Turnaround time?
+                        <div>
+                            <input class="box" type="text" placeholder="Standard">
+                        </div>
+                    </div>
+                </div>
+                <div class="sub">Multilingual? <input type="range" min="0" max="1" step="1" value="0"   class="yesNoSliderclass">
+                    <span   class="sliderValueclass">No</span>
+                </div>
+                <div class="fullLine">
+                    <div class="name"> Please list the non-english languages you would like accomodated (separate by
+                        comma)?
+                        <div>
+                            <input class="box" type="text" placeholder="Input">
+                        </div>
+                    </div>
+                </div>
+                <div class="fullLine">
+                    <div class="name"> Daily Rough Draft?
+                        <div>
+                            <input class="box" type="text" placeholder="Standard">
+                        </div>
+                    </div>
+                </div>
+                <div class="fullLine">
+                    <div class="name"> Realtime reporting?
+                        <div>
+                            <input class="box" type="text" placeholder="Standard">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="title1">
+            <span class="up"  style="font-size: 1.2rem; cursor: pointer;"><b>^</b></span> Additional Features
+            <div class="title2" style="margin: 20px 20px;">
+            <div class="sub">Do you require interpretation? <input type="range" min="0" max="1" step="1" value="0"
+                      class="yesNoSliderclass">
+                <span   class="sliderValueclass">No</span>
+            </div>
+            <div class="fullLine">
+                <div class="name"> Please list all languages to be interpreted (separate by comma)
+                    <div>
+                        <input class="box" type="text" placeholder="Input">
+                    </div>
+                </div>
+            </div>
+            <div class="sub">Do you require cart services? <input type="range" min="0" max="1" step="1" value="0"
+                      class="yesNoSliderclass">
+                <span   class="sliderValueclass">No</span>
+            </div>
+            <div class="sub">Would you need a quote prior to confirmation? <input type="range" min="0" max="1" step="1"
+                    value="0"   class="yesNoSliderclass">
+                <span   class="sliderValueclass">No</span>
+            </div>
+            <div class="fullLine">
+                <div class="name">Please list any additional requests or considerations you might have at this
+                    time
+                    <div>
+                        <input class="box" type="text" placeholder="Input">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
